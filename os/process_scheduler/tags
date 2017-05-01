@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+calculate	process.c	/^double calculate()$/;"	f
+change_time	process.c	/^int  change_time[50];$/;"	v
+choise	process.c	/^int choise;$/;"	v
+count	process.c	/^int  count=0;$/;"	v
+current_time	process.c	/^int current_time=0;$/;"	v
+dispath	process.c	/^void dispath()$/;"	f
+display	process.c	/^void display()$/;"	f
+finshed	process.c	/^int finshed()$/;"	f
+insert	process.c	/^void insert()$/;"	f
+main	process.c	/^void main()$/;"	f
+p_cb	process.c	/^PCB  p_cb[10];$/;"	v
+p_select	process.c	/^PPCB (*p_select)();$/;"	v
+process_change	process.c	/^char process_change[50][20];$/;"	v
+process_count	process.c	/^int process_count=0;$/;"	v
+ready_queue	process.c	/^PNode * ready_queue;$/;"	v
+run	process.c	/^void run(PPCB p_pcb)$/;"	f
+select_at_head	process.c	/^PPCB  select_at_head()$/;"	f
+select_by_priority	process.c	/^PPCB  select_by_priority()$/;"	f
+sort_pcb	process.c	/^void sort_pcb()$/;"	f
+start_state	process.c	/^void start_state()$/;"	f
+time_slice	process.c	/^int time_slice;$/;"	v
+unuse_cpu	process.c	/^int unuse_cpu=0;$/;"	v

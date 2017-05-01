@@ -1,0 +1,1 @@
+cmd_/home/julyerr/homework/modules/kernel_threads.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/julyerr/homework/modules/kernel_threads.ko /home/julyerr/homework/modules/kernel_threads.o /home/julyerr/homework/modules/kernel_threads.mod.o ;  true
