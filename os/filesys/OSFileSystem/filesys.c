@@ -298,7 +298,7 @@ void my_mkdir(char *dirname)
     fcbptr->first = blkno;
     fcbptr->length = 2 * sizeof(fcb);
     fcbptr->free = 1;
-    do_write(fd, (char *)fcbptr, sizeof(fcb), 2);
+    do_write(fd, (char *)fcbptr, sizeof(fcb), 2); 
     free(fcbptr);
     my_close(fd);
     
