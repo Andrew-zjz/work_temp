@@ -189,6 +189,7 @@ void run(PPCB p_pcb)
 
 	for(i=0;i<time_slice;i++){
         current_time++;
+        if(i!=time_slice)
 		insert();
 		p_pcb->used_time++;
 		if(p_pcb->used_time==p_pcb->cpu_time){
@@ -199,6 +200,7 @@ void run(PPCB p_pcb)
 	time_priority(p_pcb);
 	if(i==time_slice){
 		p_pcb->state=1;
+		insert();
         en_queue(ready_queue,p_pcb);  
 	}
 	else{
